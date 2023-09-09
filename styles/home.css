@@ -1,0 +1,58 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+#top-nav {
+  background-color: #0b3047;
+}
+#top-nav a,
+#region {
+  color: white;
+  font-size: 7px;
+  padding: 2px 5px;
+}
+nav {
+  background-color: #ffffff !important;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+/* default sizing */
+.letter-size {
+  padding: 50px 200px;
+}
+
+/* trust key styles */
+.trust-key h2,
+.support h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.trust-key hr,
+.support hr {
+  width: 30%;
+  color: blue;
+}
+.trust-key p .support p {
+  font-size: 10px;
+  font-weight: 400;
+  color: #575454;
+}
+.trust-key a,
+.support a {
+  font-size: 10px;
+  font-weight: 700;
+  color: #575454;
+}
+
+/* support section */
+.support {
+  background-color: #f9f9f9;
+}
