@@ -8,14 +8,20 @@
 #top-nav a,
 #region {
   color: white;
-  font-size: 7px;
+  font-size: 12px;
   padding: 2px 5px;
 }
 nav {
   background-color: #ffffff !important;
 }
+.dropdown {
+  /* position: static !important; */
+}
 .dropdown:hover > .dropdown-menu {
   display: block;
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
+  margin-top: 0px !important;
+  width: 100% !important;
 }
 
 .dropdown > .dropdown-toggle:active {
@@ -30,24 +36,28 @@ nav {
 
 /* trust key styles */
 .trust-key h2,
-.support h2 {
+.support h2,
+.service h2 {
   font-size: 25px;
   font-weight: 700;
   color: #3a3a3a;
 }
 .trust-key hr,
-.support hr {
+.support hr,
+.service hr,
+.news-announcements hr {
   width: 30%;
   color: blue;
 }
 .trust-key p .support p {
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 400;
   color: #575454;
 }
 .trust-key a,
-.support a {
-  font-size: 10px;
+.support a,
+.news-announcements a {
+  font-size: 16px;
   font-weight: 700;
   color: #575454;
 }
@@ -55,4 +65,70 @@ nav {
 /* support section */
 .support {
   background-color: #f9f9f9;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.card {
+  height: 250px;
+  background-color: #f9f9f9;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #787474;
+}
+/* .btn {
+  font-size: 8px;
+} */
+
+/* about section */
+.about p {
+  font-size: 12px;
+  color: #a49f9f;
+}
+
+/* footer section */
+.top-footer {
+  color: white;
+}
+footer h5 {
+  font-size: 10px;
+}
+footer button {
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  padding: 2px 5px;
+  background-color: yellow;
+}
+footer h6 {
+  margin: 0px;
+  height: 14px;
+}
+footer p {
+  margin: 0px;
+  height: 10px;
+}
+footer a {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* media query */
+@media only screen and (max-width: 768px) {
+  .letter-size {
+    padding: 5px 20px;
+  }
 }

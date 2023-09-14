@@ -16,9 +16,9 @@
     />
 
     <link rel="stylesheet" href="/styles/home.css" />
-    <title>Document</title>
+    <title>Home</title>
   </head>
-  <body>
+  <body style="position: relative">
     <header>
       <div
         id="top-nav"
@@ -44,8 +44,8 @@
         <div id="region" class="">Region: US</div>
       </div>
 
-      <div>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+      <div class="" style="position: sticky">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="javascript:void(0)"
               ><img
@@ -140,6 +140,7 @@
       </section>
     </header>
     <main>
+      <!-- trust key section -->
       <section class="trust-key letter-size">
         <h2 class="">
           Trust is key to our partnership, and we're committed to regaining
@@ -166,8 +167,8 @@
           </p>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col col-md-4 col-sm-6">
             <div class="card h-100">
               <img
                 src="images/card-images/card1.jpg"
@@ -186,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-md-4 col-sm-6">
             <div class="card h-100">
               <img
                 src="images/card-images/card2.jpg"
@@ -205,7 +206,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-md-4 col-sm-6">
             <div class="card h-100">
               <img
                 src="images/card-images/card3.jpg"
@@ -228,9 +229,413 @@
       </section>
 
       <!-- service section -->
-      <section class="service"></section>
+      <section class="service letter-size">
+        <div style="text-align: center">
+          <h2>We serve investors across stages, sectors and regions</h2>
+          <hr style="margin: 20px auto; color: red" />
+          <p>
+            SVB is the go-to financial partner for investors in the innovation
+            ecosystem and beyond.
+          </p>
+          <button class="btn btn-outline-secondary">Learn more</button>
+        </div>
+      </section>
+
+      <!-- news and announcements section -->
+      <section class="news-announcements letter-size">
+        <div style="text-align: left">
+          <h2>The latest from SVB</h2>
+          <hr style="color: red" />
+          <p>
+            Stay up-to-date on what’s happening across the innovation ecosystem.
+          </p>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Family Offices Investing in Venture Capital
+                        </h4>
+                        <p class="card-text">
+                          Family office venture portfolios are expected to seek
+                          buying opportunities in 2023.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          SVB Private – A Financial Partner Investors Can Rely
+                          On
+                        </h4>
+                        <p class="card-text">
+                          With experience working closely with venture
+                          capitalists, we can help you navigate your finances,
+                          manage capital commitments and identify opportunities.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          The State of U.S. Early-Stage Venture and Startups
+                        </h4>
+                        <p class="card-text">
+                          Following a historically strong 2021, early-stage
+                          venture performance and startup spend both dipped in
+                          2022.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          SVB Included in Bloomberg Gender-Equality Index for
+                          Fifth Year
+                        </h4>
+                        <p class="card-text">
+                          SVB continues work to advance gender equality and
+                          build a diverse and inclusive workplace.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">State of Consumer Internet</h4>
+                        <p class="card-text">
+                          Our report looks at the disrupting technologies and
+                          investment trends transforming the consumer
+                          experience.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          State of the Wine Industry Report 2023
+                        </h4>
+                        <p class="card-text">
+                          While the premium wine industry experienced another
+                          strong year, the US wine industry as a whole
+                          experienced negative sales volume growth due to
+                          decreased sales.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          The Future of Climate Tech 2023
+                        </h4>
+                        <p class="card-text">
+                          SVB's Future of Climate Tech report looks at the key
+                          trends in climate tech funding and the promising
+                          technologies that are helping the world achieve net
+                          zero.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Healthcare Investments and Exits Mid-Year 2023 Update
+                        </h4>
+                        <p class="card-text">
+                          Our proprietary research and insights on healthcare
+                          investment and exit trends, plus the report’s
+                          first-ever summary of the thriving women’s health
+                          sector.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <!-- <img
+                        class="img-fluid"
+                        alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6"
+                      /> -->
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          2023 Direct-to-Consumer Wine Report
+                        </h4>
+                        <p class="card-text">
+                          The direct-to-consumer model continues to evolve and
+                          is doing so at an accelerating pace. Read about the
+                          latest market trends taking shape in the wine
+                          industry.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about letter-size">
+        <p>
+          ©2023 First-Citizens Bank & Trust Company. Silicon Valley Bank, a
+          division of First-Citizens Bank & Trust Company. Member FDIC. 
+        </p>
+        <p>
+          <sup>1</sup> Free checking through SVB Edge available for up to three
+          years from account opening on included services. Transactions
+          processed, such as for overdrafts, NSF’s, returned and collection
+          items will incur a fee as described in the Schedule of Fees. Click the
+          ‘Learn More’ link above for additional terms and details on the free
+          checking available with SVB Edge.
+        </p>
+        <p>
+          <sup>2</sup> Money Market Accounts (MMA) are interest-bearing accounts
+          unless otherwise stated. As of August 2023, a 5.10% annual percentage
+          yield (APY) on the Startup Money Market Account is available
+          for deposit balances of up to $4,000,000.00.  If the Startup Money
+          Market Account has deposit balances of $4,000.000.01 or more, a 1.00%
+          APY will be applied to the entire Startup Money Market Account deposit
+          balance. The APY or interest rate depends on the tier associated with
+          the amount deposited in the MMA. You must deposit and maintain the
+          applicable account balance to earn the disclosed APY. Please refer to
+          the Deposit Agreement and Disclosure Statement issued at opening and
+          any updates thereto for more details. Changes to the interest rate and
+          APY on the MMA is at our discretion and are reflected in your account
+          statement. Current clients with an existing Startup MMA opened before
+          November 2022 are not eligible for this offering. Interest is
+          calculated daily and credited monthly to the account. If you close
+          your account before interest is credited for the month, you will not
+          receive the accrued interest during the month the account is closed.
+          Applicable fees, including those contained in the Product Sheets and
+          Schedule of Fees and Charges provided at account opening, could reduce
+          earnings on the account. Account maintenance fees may apply for each
+          month your balance falls below a disclosed minimum.
+        </p>
+        <p>
+          <sup>3</sup> Corporate and Business Card programs are subject to
+          credit approval. See the SVB Innovators Card Terms and Conditions for
+          full program details. 2X Unlimited Rewards Points earnings are based
+          on net purchases made on the SVB Innovators Card. Click the ‘Learn
+          More’ link above for additional terms and details on the SVB
+          Innovators Card.
+        </p>
+        <p>
+          <sup>4</sup> All loans and debt solutions are subject to underwriting,
+          credit, and collateral approval. Information provided or referenced is
+          for informational purposes only and no guarantee is expressed or
+          implied. Rates, terms, programs and underwriting policies subject to
+          change without notice. This is not a commitment to lend. Terms and
+          conditions apply.
+        </p>
+        <p>
+          <sup>5</sup> Foreign exchange transactions can be highly risky, and
+          losses may occur in short periods of time if there is an adverse
+          movement of exchange rates. Exchange rates can be highly volatile and
+          are impacted by numerous economic, political and social factors as
+          well as supply and demand and governmental intervention, control and
+          adjustments. Investments in financial instruments carry significant
+          risk, including the possible loss of the principal amount invested.
+          Before entering any foreign exchange transaction, you should obtain
+          advice from your own tax, financial, legal and other advisors and only
+          make investment decisions on the basis of your own objectives,
+          experience and resources
+        </p>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section
+        style="background-color: #003149; height: 200px"
+        class="letter-size top-footer"
+      >
+        <div class="row">
+          <div
+            class="col-4 d-flex flex-column"
+            style="border-right: 1px solid white"
+          >
+            <h5>Subscribe to newsletters</h5>
+            <button style="display: inline; width: 50%">Sign Up now</button>
+            <a href="#" style="margin-top: 10px">United States</a>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">How We Help Clients</a>
+            </h6>
+            <p><a href="">Starting Up</a></p>
+            <p><a href="">Venture-Funded</a></p>
+            <p><a href="">Corporate Banking</a></p>
+            <p><a href="">Investors</a></p>
+            <p><a href="">Private Banking & Wealth Advisory</a></p>
+            <p><a href="">Industries We Serve</a></p>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">Trends & Insights</a>
+            </h6>
+            <p><a href="">SVB Signature Research</a></p>
+            <p><a href="">SVB Perspectives</a></p>
+            <p><a href="">Startup Insights</a></p>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">About Us</a>
+            </h6>
+            <p><a href="">Careers</a></p>
+            <p><a href="">Living Our Values</a></p>
+            <p><a href="">Newsroom</a></p>
+            <p><a href="">Investor Relations</a></p>
+            <p><a href="">Leadership</a></p>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">Contact & Support</a>
+            </h6>
+            <p><a href="#">Locations</a></p>
+            <p><a href="">Client Service & Support</a></p>
+            <p><a href="">Vendor Information</a></p>
+            <p><a href="">Contact</a></p>
+            <p><a href="">Fraud Prevention</a></p>
+          </div>
+        </div>
+      </section>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
