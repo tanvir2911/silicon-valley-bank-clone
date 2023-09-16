@@ -17,6 +17,15 @@ nav {
 .dropdown {
   /* position: static !important; */
 }
+
+.sliding-menu {
+  display: none;
+}
+
+.hover:hover ~ .sliding-menu {
+  display: block !important;
+}
+
 .dropdown:hover > .dropdown-menu {
   display: block;
   /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
@@ -37,7 +46,8 @@ nav {
 /* trust key styles */
 .trust-key h2,
 .support h2,
-.service h2 {
+.service h2,
+.recent-transaction h2 {
   font-size: 25px;
   font-weight: 700;
   color: #3a3a3a;
@@ -92,6 +102,11 @@ nav {
   font-size: 8px;
 } */
 
+/* service section */
+.move-up:hover {
+  transform: translateY(-10px);
+  transition: transform ease-in-out 500ms;
+}
 /* about section */
 .about p {
   font-size: 12px;
