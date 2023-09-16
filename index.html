@@ -45,7 +45,73 @@
             <a class="nav-link" href="#">SVB Capital</a>
           </li>
         </ul>
-        <div id="region" class="">Region: US</div>
+        <div id="region" class="">
+          Region:
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            >US</a
+          >
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content text-dark" style="padding: 30px">
+                <div class="modal-header">
+                  <h1
+                    class="modal-title"
+                    id="exampleModalLabel"
+                    style="font-size: 36px; font-weight: 700"
+                  >
+                    Select a Region
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <h4
+                    style="
+                      margin-bottom: 20px;
+                      font-size: 16px;
+                      font-weight: 700;
+                      color: gray;
+                    "
+                  >
+                    REGIONS
+                  </h4>
+                  <div>
+                    <a
+                      href="#"
+                      style="color: blue; margin-bottom: 20px"
+                      class="d-block"
+                      ><img
+                        src="./images/flag/us.jpg"
+                        style="width: 50px"
+                        alt=""
+                      />
+                      US Main</a
+                    >
+                    <a href="#" style="color: blue" class="d-block">
+                      <img
+                        src="./images/flag/india.jpg"
+                        style="width: 50px"
+                        alt=""
+                      />
+                      India
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="" style="position: sticky">
@@ -130,11 +196,87 @@
                 </li>
               </ul>
               <form class="d-flex">
-                <input
+                <a
+                  href=""
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; margin-right: 10px"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    />
+                  </svg>
+                </a>
+                <div
+                  class="modal fade"
+                  id="exampleModal1"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content text-dark" style="padding: 30px">
+                      <div class="modal-header">
+                        <h1
+                          class="modal-title"
+                          id="exampleModalLabel"
+                          style="font-size: 36px; font-weight: 700"
+                        >
+                          <input type="text" />
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <!-- <div class="modal-body">
+                        <h4
+                          style="
+                            margin-bottom: 20px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: gray;
+                          "
+                        >
+                          REGIONS
+                        </h4>
+                        <div>
+                          <a
+                            href="#"
+                            style="color: blue; margin-bottom: 20px"
+                            class="d-block"
+                            ><img
+                              src="./images/flag/us.jpg"
+                              style="width: 50px"
+                              alt=""
+                            />
+                            US Main</a
+                          >
+                          <a href="#" style="color: blue" class="d-block">
+                            <img
+                              src="./images/flag/india.jpg"
+                              style="width: 50px"
+                              alt=""
+                            />
+                            India
+                          </a>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <input
                   class="form-control me-2"
                   type="text"
                   placeholder="Search"
-                />
+                /> -->
                 <button class="btn btn-primary" type="button">Search</button>
               </form>
             </div>
