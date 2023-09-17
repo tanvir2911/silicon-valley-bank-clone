@@ -33,11 +33,6 @@ nav {
   margin: 0;
 }
 
-.navbar a:hover,
-.dropdown1:hover .dropbtn {
-  /* background-color: red; */
-}
-
 .dropdown1-content {
   display: none;
   position: absolute;
@@ -98,6 +93,11 @@ nav {
   }
 }
 /* dropdown mega menu ends */
+
+/* login starts*/
+/* login-box */
+
+/* login ends */
 
 .modal input:focus {
   outline: none;
@@ -217,3 +217,5 @@ footer a {
     padding: 5px 20px;
   }
 }
+
+/* faq style */

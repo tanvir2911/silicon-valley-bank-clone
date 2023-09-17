@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/home.css" />
+    <title>FAQ</title>
+    <script
+      src="https://kit.fontawesome.com/7f6dbe99ef.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .banner {
+        background-color: #003149;
+        color: white;
+        padding: 7rem;
+      }
+      .banner h1 {
+        text-align: end;
+        font-size: 52px;
+      }
+      .banner .col-6 {
+        display: flex;
+        align-items: center;
+      }
+      .image-div img {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+      }
+      .first-para {
+        background-color: rgb(221, 210, 210);
+      }
+      .first-para p {
+        font-size: 24px;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+  <body style="position: relative">
+    <header>
+      <div
+        id="top-nav"
+        class="container-fluid ps-5 d-flex justify-content-between"
+      >
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="#">SVB</a>
+          </li>
+          <li
+            class="nav-item border border-rounded"
+            style="background-color: white"
+          >
+            <a class="nav-link text-dark fw-bold" href="index.html"
+              >Silicon Valley Bank</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SVB Private</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SVB Capital</a>
+          </li>
+        </ul>
+        <div id="region" class="">
+          Region:
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            >US</a
+          >
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content text-dark" style="padding: 30px">
+                <div class="modal-header">
+                  <h1
+                    class="modal-title"
+                    id="exampleModalLabel"
+                    style="font-size: 36px; font-weight: 700"
+                  >
+                    Select a Region
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <h4
+                    style="
+                      margin-bottom: 20px;
+                      font-size: 16px;
+                      font-weight: 700;
+                      color: gray;
+                    "
+                  >
+                    REGIONS
+                  </h4>
+                  <div>
+                    <a
+                      href="#"
+                      style="color: blue; margin-bottom: 20px"
+                      class="d-block"
+                      ><img
+                        src="./images/flag/us.jpg"
+                        style="width: 50px"
+                        alt=""
+                      />
+                      US Main</a
+                    >
+                    <a href="#" style="color: blue" class="d-block">
+                      <img
+                        src="./images/flag/india.jpg"
+                        style="width: 50px"
+                        alt=""
+                      />
+                      India
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="" style="">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                class="img-fluid"
+                style="width: 100px; height: 20px"
+                src="./images/logo.png"
+                alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                <div class="dropdown1">
+                  <button class="dropbtn">
+                    Products & Services
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown1-content letter-size">
+                    <!-- <div class="header">
+                      <h2>Mega Menu</h2>
+                    </div> -->
+                    <div class="row">
+                      <div class="column col">
+                        <h3>Business Banking</h3>
+                        <p>
+                          Complete your banking transactions with ease and
+                          security.
+                        </p>
+                        <a href="#">Business Checking</a>
+                        <a href="#">Payments & Business</a>
+                        <a href="#">Credit Cards</a>
+                        <a href="#">Online Tools & Integration</a>
+                        <a href="#">Fraud Prevention</a>
+                        <a href="#">Lending</a>
+                      </div>
+                      <div class="column col">
+                        <h3>Global Business Solutions</h3>
+                        <p>
+                          Get customized services to help support your global
+                          business.
+                        </p>
+                        <a href="#">Global Banking Services</a>
+                        <a href="#">Global Payments</a>
+                        <a href="#">Foreign Exchange Risk Services</a>
+                      </div>
+                      <div class="column col">
+                        <h3>Liquidity Solutions</h3>
+                        <p>
+                          Strategize with our financial experts to help you
+                          achieve your business goals.
+                        </p>
+                        <a href="#">SVB Asset Management</a>
+                        <a href="#">Deposits & Investments</a>
+                      </div>
+                      <div class="column col">
+                        <h3>Global Fund Banking</h3>
+                        <p>
+                          Leverage SVB's 30+ years experience in banking top
+                          funds.
+                        </p>
+                        <a href="#">PE Fund Banking</a>
+                        <a href="#">VC Fund Banking</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown1">
+                  <button class="dropbtn">
+                    Our Expertise
+
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown1-content letter-size">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <h3>Our Business Expertise</h3>
+                        <div class="column col">
+                          <p>BUSINESS STAGES</p>
+                          <a href="#">Startup Banking</a>
+                          <a href="#">Venture-Funded</a>
+                          <a href="#">Corporate Banking</a>
+                        </div>
+                        <div class="column col">
+                          <p>INVESTORS</p>
+                          <a class="fw-bolder" href="#">Private Equity</a>
+                          <a href="#">Venture Capital</a>
+                          <a href="#">Emerging Managers</a>
+                          <a href="#">Corporate Venture</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="column col">
+                          <h3>Industry Expertise</h3>
+                          <p>
+                            Our bankers have years of real-world experience to
+                            provide guidance across a number of industries.
+                          </p>
+                          <a href="#">View All Industries </a>
+                          <a href="#">Case Studies </a>
+                        </div>
+                        <div class="column col">
+                          <small class="d-block">OUR SECTOR KNOWLEDGE</small>
+                          <a href="#">Consumer Internet</a>
+                          <a href="#">Case Studies </a>
+                          <a href="#">Enterprise Software</a>
+                          <a href="#">Fintech</a>
+                          <a href="#">Hardware & Frontier Tech</a>
+                          <a href="#">Investors</a>
+                          <a href="#">Life Science and Healthcare</a>
+                          <a href="#">Premium Wine Banking</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown1">
+                  <button class="dropbtn">
+                    Trends & Insights
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown1-content letter-size">
+                    <div class="row">
+                      <div class="column col">
+                        <h2>Trends & Insights</h2>
+                        <hr />
+                        <p>
+                          SVB research, blogs and webinars to give your business
+                          crucial advantages in decision-making.
+                        </p>
+                      </div>
+                      <div class="column col">
+                        <h3>Reports</h3>
+                        <a href="#">Global Fund Banking Outlook</a>
+                        <a href="#">Healthcare Investments and Exits</a>
+                        <a href="#">Future of Climate Tech</a>
+                        <a href="#">State of the Markets</a>
+                        <a href="#">State of Consumer Internet</a>
+                        <a href="#">State of the Wine Industry</a>
+                        <a href="#">State of Fintech</a>
+                        <a href="#">Family Office</a>
+                        <a class="fw-bolder" href="#">View All Reports</a>
+                      </div>
+                      <div class="column col">
+                        <h3>Perspectives and Insights</h3>
+                        <a href="#">Foreign Exchange Advisory</a>
+                        <a href="#">Business Growth</a>
+                        <a href="#">Market Insights</a>
+                        <a href="#">Industry Insights</a>
+                        <a href="#">Private Bank</a>
+                        <a href="#">Startup Insights</a>
+                        <a href="#">Private Equity CFO Insights</a>
+                        <a class="fw-bolder" href="#">View All Reports</a>
+                      </div>
+                      <div class="column col" style="">
+                        <h3>SVB Webinars</h3>
+                        <p>
+                          Register for upcoming live webinars and access
+                          recorded webinars to learn about the latest trends for
+                          your business and industry.
+                        </p>
+                        <div class="btn btn-outline-primary">View Webinars</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown1">
+                  <button class="dropbtn">
+                    About Us
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown1-content letter-size">
+                    <div class="row">
+                      <div class="column col">
+                        <a href="#"><h3>SVB FAQ</h3></a>
+                        <hr />
+                        <p>
+                          Silicon Valley Bank is now a division of First
+                          Citizens Bank
+                        </p>
+                      </div>
+                      <div class="column col">
+                        <a href="#"><h3>Living Our Values</h3></a>
+                        <hr />
+                        <p>
+                          SVB's values guide our actions, from our approach to
+                          supporting small businesses to community engagement to
+                          our ESG reporting.
+                        </p>
+                      </div>
+                      <div class="column col">
+                        <a href="./contactUs.html"><h3>Contact Us</h3></a>
+                        <hr />
+                        <p>
+                          Let SVB experts help your business with the right mix
+                          of products, services and strategic advice.
+                        </p>
+                      </div>
+                      <div class="column col" style="">
+                        <h3>Resources</h3>
+                        <a href="#">Locations</a>
+                        <a href="#">Investor Relations</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Recent Transactions</a>
+                        <a href="#">Client Support</a>
+                        <a href="#">Access to Innovation</a>
+                        <a href="#">Success Stories</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+              <div class="d-flex">
+                <a
+                  class="align-center"
+                  href=""
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; margin-right: 10px"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    />
+                  </svg>
+                </a>
+                <div
+                  class="modal fade"
+                  id="exampleModal1"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-fullscreen">
+                    <div
+                      class="modal-content text-dark letter-size"
+                      style="padding: 30px"
+                    >
+                      <div class="modal-header">
+                        <!-- <h1
+                          class="modal-title"
+                          id="exampleModalLabel1"
+                          style="font-size: 36px; font-weight: 700"
+                        >
+                          Select a Region
+                        </h1> -->
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="width: 24px; margin-right: 10px"
+                          viewBox="0 0 512 512"
+                        >
+                          <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                          />
+                        </svg>
+                        <input
+                          type="text"
+                          placeholder="Search here...."
+                          style="border: 0px; width: 100%"
+                        />
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <input
+                  class="form-control me-2"
+                  type="text"
+                  placeholder="Search"
+                /> -->
+                <a href="becomeAClient.html">
+                  <button
+                    class="btn btn-warning fw-bold border border-rounded-none mx-3"
+                    type="button"
+                  >
+                    Become a Client
+                  </button>
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                >
+                  Login
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal2"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content p-5">
+                      <div class="modal-body">
+                        <div class="login-box">
+                          <h3 class="fs-4" style="color: rgb(38, 174, 205)">
+                            SELECT A SERVICE FOR LOGIN
+                          </h3>
+                          <div class="row ps-0">
+                            <div class="col-10 ms-0">
+                              <select
+                                class="form-select form-select-lg mb-3"
+                                aria-label="Large select example"
+                              >
+                                <option selected value="svbOnlineService">
+                                  SVB Online Services
+                                </option>
+                                <option value="svbGo">SVB Go</option>
+                                <optgroup label="Private Bank">
+                                  <option value="pbLSVB">
+                                    Private Banking - Legacy SVB
+                                  </option>
+                                  <option value="pbLBP">
+                                    Private Banking - Legacy Boston Private
+                                  </option>
+                                </optgroup>
+                                <optgroup label="Investments">
+                                  <option value="svbCLP">
+                                    SVB Capital Limited Partners
+                                  </option>
+                                  <option value="svbAMR">
+                                    SVB Asset Management Reporting
+                                  </option>
+                                  <option value="usBP">U.S Bank Pivot</option>
+                                </optgroup>
+                                <optgroup label="Credit Cards">
+                                  <option value="cardHolders">
+                                    Cardholders
+                                  </option>
+                                </optgroup>
+                                <option value="administrators">
+                                  Administrators
+                                </option>
+                              </select>
+                            </div>
+                            <div class="col-2">
+                              <a href="online-banking.html">
+                                <button type="button" class="btn btn-primary">
+                                  Go
+                                </button>
+                              </a>
+                            </div>
+                          </div>
+                          <p>Need help? <a href="#">Client Support</a></p>
+                          <p>Not a client? <a href="#">Apply Now</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <section>
+        <div class="banner row">
+          <div class="col-6">
+            <h1>Fully Committed to the Innovation Economy</h1>
+          </div>
+          <div class="col-6 image-div">
+            <img src="./images/faq/faq1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="letter-size first-para">
+        <p>
+          Silicon Valley Bank is open for business and fully committed to the
+          innovation economy, as we have been for the past 40 years. And now as
+          a division of First Citizens Bank, we have the strength and stability
+          of a 125-year-old, well established financial organization, its
+          balance sheet and highly diversified deposits behind us.
+        </p>
+        <p>
+          Your relationship managers are here for you as always — please reach
+          out to them with any questions you may have. Or if you’d like to
+          become a client.
+        </p>
+        <button class="btn btn-outline-warning">Get started now</button>
+      </section>
+
+      <!-- faqs section -->
+      <section class="letter-size trust-key">
+        <h2>FAQS</h2>
+        <hr style="width: 100px" />
+        <div class="row" style="background-color: rgba(237, 235, 231, 0.832)">
+          <div
+            class="col-4"
+            style="background-color: rgba(237, 235, 231, 0.832)"
+          >
+            <div style="height: 200px; position: sticky; top: 200px">
+              <p><a href="#">JUMP TO A FAQ CATEGORY</a></p>
+              <p>
+                <a href="#">About SVB, a division of First Citizens Bank </a>
+              </p>
+              <p><a href="#">FDIC Coverage</a></p>
+              <p><a href="#">Loans</a></p>
+            </div>
+          </div>
+          <div class="col-8">
+            <h2>About SVB, a division of First Citizens Bank</h2>
+            <hr />
+            <div
+              class="accordion accordion-flush mt-3 mb-3"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Is Silicon Valley Bank still operating?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    SVB is open, serving clients and accepting new business.
+                    What our clients need and expect from SVB is still here –
+                    dedicated, knowledgeable and specialized teams,
+                    comprehensive products and services, exceptional service and
+                    a deep understanding of our clients’ unique businesses.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    What's happening with Silicon Valley Bank?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    SVB is open and operating. As a division of First Citizens
+                    Bank, it is operating under the name Silicon Valley Bank and
+                    continues to provide private equity investors and the
+                    innovation economy the same services and commitment that it
+                    has for the last 40 years.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Is SVB now a part of First Citizens Bank?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Silicon Valley Bank was acquired by First Citizens Bank on
+                    March 27, 2023. Silicon Valley Bank is open and operating as
+                    a division of First Citizens Bank serving the same investor
+                    and innovation economy clients that it has for the past 40
+                    years.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Who is First Citizens Bank?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    First Citizens Bank helps personal, business, commercial and
+                    wealth clients build financial strength that lasts. Founded
+                    in 1898 and headquartered in Raleigh, N.C., First Citizens
+                    is the largest family-controlled bank in the United States,
+                    providing a unique legacy of strength, stability and
+                    long-term thinking that has spanned generations. First
+                    Citizens now offers an array of general banking services
+                    including a network of more than 550 branches in 23 states;
+                    commercial banking expertise delivering best-in-class
+                    lending, leasing and other financial services coast to
+                    coast; and a nationwide direct bank. Parent company First
+                    Citizens BancShares, Inc. (NASDAQ: FCNCA) is a top 20 U.S.
+                    financial institution with more than $219 billion in assets.
+                    Visit firstcitizens.com to learn more.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    What will happen to the Silicon Valley Bank name?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Silicon Valley Bank branches and offices are now operating
+                    as Silicon Valley Bank, a division of First Citizens Bank.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Will Silicon Valley Bank customers have access to First
+                    Citizens Bank products and services, including branches and
+                    ATMs?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    At this time, Silicon Valley Bank customers will not have
+                    access to First Citizens Bank products and services,
+                    including branches and ATMs. Silicon Valley Bank customers
+                    should continue to bank and access their accounts as they
+                    always have.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Is First Citizens Bank committed to supporting the
+                    innovation and technology sectors?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Yes, First Citizens is committed to continuing to help
+                    innovators, enterprises and investors move bold ideas
+                    forward.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Will First Citizens continue to invest in Silicon Valley
+                    Bank’s Global Fund Banking business?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Silicon Valley Bank’s large portfolio of client
+                    relationships across private equity and venture capital
+                    firms and their portfolio companies nicely complements First
+                    Citizens’ existing customer base. We recognize the
+                    importance of legacy SVB’s Global Fund Banking business in
+                    providing banking, payments, FX and capital call lines to
+                    private equity and venture capital clients as well as
+                    deposit products, treasury management products and several
+                    FX solutions to facilitate cross-border capital flows for
+                    private equity/venture capital clients. We are committed to
+                    building on and investing in Silicon Valley Bank’s Global
+                    Fund Banking business to preserve these strong relationships
+                    and serve as their leading provider of banking, payments, FX
+                    and capital call lines.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    What is the status of SVB’s products and solutions?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    In SVB’s commercial bank and private bank, we have all the
+                    products we had before, except for Cayman DDA/MMA accounts
+                    and Eurodollar Sweep products. This includes SVB Asset
+                    Management, Foreign Exchange and Community Development
+                    Finance among all of our online banking, cash management,
+                    deposit products and credit solutions (including venture
+                    debt, term loans, syndicated loans, revenue-based financing,
+                    mezzanine financing, etc.). FX wires are back up and
+                    running. Clients may also reference this servicing Q&A for
+                    more information:
+                    <a href="https://www.svb.com/learning-central/fcb/intro"
+                      >https://www.svb.com/learning-central/fcb/intro</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Why should we consider staying with SVB?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    SVB is open and here to serve you as we always have –
+                    focused and specialized in the innovation economy. As a
+                    division of First Citizens, SVB is running as SVB, and our
+                    clients do not need to change anything to receive the
+                    services they know and expect from the team with the deepest
+                    bench of innovation economy expertise and a team that serves
+                    the innovation economy better than any other financial
+                    institution. What our clients in every sector, segment and
+                    life stage of the innovation economy need and expect from
+                    SVB is still here – dedicated and knowledgeable teams,
+                    comprehensive products and services, exceptional service and
+                    a deep understanding of our clients’ unique businesses. We
+                    remain dedicated to the success of the investors and
+                    innovators who are literally inventing the future, and now
+                    we have the full backing, credit appetite, authority to
+                    serve our clients and financial support of 125-year old
+                    First Citizens Bank to continue to pursue that mission.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    What is the status of SVB’s international businesses?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Clients with US accounts and TIN numbers will be able to
+                    maintain accounts (as was already the case for clients from
+                    our overseas lending operations) and have no changes to
+                    their credit facilities. Our Global Gateway group is still
+                    actively supporting investors and innovators globally that
+                    need US banking. What we no longer have are operations to
+                    service international clients in country. As stated, those
+                    companies can work with us via our US operations and our
+                    US-based clients can transact globally as before. Silicon
+                    Valley Bank’s UK subsidiary was purchased by HSBC and
+                    continues to operate.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    What can you say about SVB’s security and stability as well
+                    as trustworthiness?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    SVB lost the confidence of our clients, friends and fans,
+                    and for that we are deeply sorry. Each of our next steps is
+                    aimed at earning back our clients’ trust. What our clients
+                    in every sector, segment and life stage of the innovation
+                    economy need and expect from SVB is still here – dedicated
+                    and knowledgeable teams, comprehensive products and
+                    services, and a deep understanding of our clients’ unique
+                    businesses. We remain dedicated to the success of the
+                    investors and innovators who are literally inventing the
+                    future, and now we have the full backing, credit appetite
+                    and financial support of 125-year old First Citizens Bank to
+                    continue to pursue that mission. First Citizens is not
+                    selling SVB’s loans, and in fact intends to grow the SVB
+                    loan portfolio. It acquired all parts of SVB commercial and
+                    private banking business and the SVB team is operating as a
+                    unit with its own operating model, credit policy, and
+                    specialized services. We have the deepest bench of experts
+                    serving the innovation economy that has also been through
+                    several market cycles. Our expertise - built over 40 years -
+                    and our connections and insights into the unique sectors we
+                    serve, differentiates SVB from other financial institutions.
+                    And, First Citizens Bank has a positive reputation for
+                    offering a full suite of products and services that help
+                    consumer, business, commercial and wealth clients build
+                    financial strength that lasts. Its holding company has more
+                    than $145B in deposits, $143B in loans and $219B in total
+                    assets (NASDAQ: FCNCA). First Citizens also has a history of
+                    expanding its business through mergers and acquisitions, and
+                    Silicon Valley Bank adds new geographies and businesses to
+                    its portfolio, that it intends to enable to grow with the
+                    needs of SVB’s clients.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Will the client support teams be the same?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    SVB’s dedicated and specialized client service team,
+                    relationship advisors, product advisors and relationship
+                    management teams are still operating as they have been at
+                    SVB. We have the deepest bench of experts serving the
+                    innovation economy that has also been through several market
+                    cycles. No doubt with more competitors, our clients have
+                    choices and despite our expertise, size and decades in this
+                    business, we know will have to earn their trust and their
+                    business every day. We understand the unique banking and
+                    tailored lending needs of the innovation economy better than
+                    any other financial institution. Other banks will try to
+                    replicate what we have built over the decades, but Founders,
+                    Entrepreneurs, VCs and private equity firms who need our
+                    services don’t have time to wait.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Is Silicon Valley Bank accepting new clients and new
+                    business?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Silicon Valley Bank is open for business, processing
+                    payments, funding loans and serving our clients, now as a
+                    division of First Citizens Bank. Your relationship managers
+                    are the same people you have always worked with and they are
+                    here to answer your questions and provide you with business
+                    solutions as they always have. We are accepting new clients
+                    and new business.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>FDIC Coverage</h2>
+            <hr />
+            <div
+              class="accordion accordion-flush mt-3 mb-3"
+              id="accordionPanelsStayOpenExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Is Silicon Valley Bank FDIC insured?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    First Citizens Bank, and its divisions including Silicon
+                    Valley Bank, is a member of the FDIC. Client deposits in the
+                    US continue to be insured by the FDIC up to the maximum
+                    amount allowed by law. This maximum amount is $250,000 per
+                    depositor, per insured bank, for each account ownership
+                    category.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Will deposit interest continue to be paid out?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">Yes</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    How will Letters of Credit (LC) be managed?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    All obligations of Silicon Valley Bank, including letters of
+                    credit supporting leases or other commercial transactions,
+                    are backed by First Citizens Bank.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Does this acquisition affect my FDIC insurance coverage?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    Your deposits will continue to be insured by the FDIC up to
+                    the maximum amount allowed by law. This maximum amount is
+                    $250,000 per depositor, per insured bank, for each account
+                    ownership category.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>Loans</h2>
+            <hr />
+            <div
+              class="accordion accordion-flush mt-3"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Are you honoring debt facilities?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Yes, we are honoring drawn and undrawn facilities.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Are you originating new ones?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Yes, for new and existing clients.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    What happens to term sheets issued and refinances?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    We are ready, willing and able to pick these up right where
+                    we left off and want to get them done.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section
+        style="background-color: #003149; height: 200px"
+        class="letter-size top-footer"
+      >
+        <div class="row">
+          <div
+            class="col-4 d-flex flex-column"
+            style="border-right: 1px solid white"
+          >
+            <h5>Subscribe to newsletters</h5>
+            <button style="display: inline; width: 50%">Sign Up now</button>
+            <a href="#" style="margin-top: 10px">United States</a>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">How We Help Clients</a>
+            </h6>
+            <p><a href="">Starting Up</a></p>
+            <p><a href="">Venture-Funded</a></p>
+            <p><a href="">Corporate Banking</a></p>
+            <p><a href="">Investors</a></p>
+            <p><a href="">Private Banking & Wealth Advisory</a></p>
+            <p><a href="">Industries We Serve</a></p>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">Trends & Insights</a>
+            </h6>
+            <p><a href="">SVB Signature Research</a></p>
+            <p><a href="">SVB Perspectives</a></p>
+            <p><a href="">Startup Insights</a></p>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">About Us</a>
+            </h6>
+            <p><a href="">Careers</a></p>
+            <p><a href="">Living Our Values</a></p>
+            <p><a href="">Newsroom</a></p>
+            <p><a href="">Investor Relations</a></p>
+            <p><a href="">Leadership</a></p>
+          </div>
+          <div class="col-2">
+            <h6>
+              <a href="#">Contact & Support</a>
+            </h6>
+            <p><a href="#">Locations</a></p>
+            <p><a href="">Client Service & Support</a></p>
+            <p><a href="">Vendor Information</a></p>
+            <p><a href="">Contact</a></p>
+            <p><a href="">Fraud Prevention</a></p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

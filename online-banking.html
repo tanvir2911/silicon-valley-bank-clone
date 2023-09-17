@@ -16,7 +16,7 @@
     />
 
     <link rel="stylesheet" href="/styles/home.css" />
-    <title>Client</title>
+    <title>Online Banking</title>
     <script
       src="https://kit.fontawesome.com/7f6dbe99ef.js"
       crossorigin="anonymous"
@@ -400,82 +400,19 @@
                   </div>
                 </div>
 
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal2"
-                >
-                  Login
-                </button>
-
-                <!-- Modal -->
-                <div
-                  class="modal fade"
-                  id="exampleModal2"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel2"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content p-5">
-                      <div class="modal-body">
-                        <div class="login-box">
-                          <h3 class="fs-4" style="color: rgb(38, 174, 205)">
-                            SELECT A SERVICE FOR LOGIN
-                          </h3>
-                          <div class="row ps-0">
-                            <div class="col-10 ms-0">
-                              <select
-                                class="form-select form-select-lg mb-3"
-                                aria-label="Large select example"
-                              >
-                                <option selected value="svbOnlineService">
-                                  SVB Online Services
-                                </option>
-                                <option value="svbGo">SVB Go</option>
-                                <optgroup label="Private Bank">
-                                  <option value="pbLSVB">
-                                    Private Banking - Legacy SVB
-                                  </option>
-                                  <option value="pbLBP">
-                                    Private Banking - Legacy Boston Private
-                                  </option>
-                                </optgroup>
-                                <optgroup label="Investments">
-                                  <option value="svbCLP">
-                                    SVB Capital Limited Partners
-                                  </option>
-                                  <option value="svbAMR">
-                                    SVB Asset Management Reporting
-                                  </option>
-                                  <option value="usBP">U.S Bank Pivot</option>
-                                </optgroup>
-                                <optgroup label="Credit Cards">
-                                  <option value="cardHolders">
-                                    Cardholders
-                                  </option>
-                                </optgroup>
-                                <option value="administrators">
-                                  Administrators
-                                </option>
-                              </select>
-                            </div>
-                            <div class="col-2">
-                              <a href="online-banking.html">
-                                <button type="button" class="btn btn-primary">
-                                  Go
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                          <p>Need help? <a href="#">Client Support</a></p>
-                          <p>Not a client? <a href="#">Apply Now</a></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <!-- <input
+                  class="form-control me-2"
+                  type="text"
+                  placeholder="Search"
+                /> -->
+                <a href="becomeAClient.html">
+                  <button
+                    class="btn btn-warning fw-bold border border-rounded-none mx-3"
+                    type="button"
+                  >
+                    Become a Client
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -483,108 +420,52 @@
       </div>
     </header>
     <main>
-      <!-- get started section -->
-      <section class="trust-key letter-size">
-        <h2 class="fw-bolder fs-1">Get started with SVB</h2>
-        <hr />
-        <p class="t fs-5" style="color: rgba(124, 116, 116, 0.945)">
-          Please complete the following questionnaire with as much detail as
-          possible. This will help us connect you with the banking team that
-          specializes in your region and industry.
-        </p>
-        <a href="#">Learn more</a>
-      </section>
-
-      <!-- form section -->
-      <section class="letter-size become-a-client">
-        <div class="row">
-          <div
-            class="col-md-5"
-            style="
-              height: inherit;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-            "
-          >
-            <h2 class="text-end fw-bolder me-3">Become a client</h2>
+      <!-- online banking section -->
+      <section
+        class="letter-size"
+        style="height: 500px; background-color: rgb(201, 201, 219)"
+      >
+        <h2 class="text-center mb-5">Welcome to Online Banking</h2>
+        <form action="" class="d-flex flex-column align-items-center">
+          <div class="form-floating mb-3 w-50">
+            <input
+              required
+              type="text"
+              class="form-control"
+              id="fname"
+              placeholder="name@example.com"
+            />
+            <label for="fname">User ID</label>
           </div>
-          <div
-            class="col-md-7 border border-top-0 border-end-0 border-bottom-0"
-          >
-            <h2 class="fw-bolder">Your Information</h2>
-            <form action="">
-              <div class="form-floating mb-3 w-50">
-                <input
-                  required
-                  type="text"
-                  class="form-control"
-                  id="fname"
-                  placeholder="name@example.com"
-                />
-                <label for="fname">First Name</label>
-              </div>
-              <div class="form-floating mb-3 w-50">
-                <input
-                  required
-                  type="text"
-                  class="form-control"
-                  id="lname"
-                  placeholder="name@example.com"
-                />
-                <label for="lname">Last Name</label>
-              </div>
-              <div class="form-floating mb-3 w-50">
-                <input
-                  required
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="name@example.com"
-                />
-                <label for="email">Email Address</label>
-              </div>
-              <div class="form-floating mb-3 w-50">
-                <input
-                  required
-                  type="tel"
-                  class="form-control"
-                  id="phone"
-                  placeholder="name@example.com"
-                />
-                <label for="email">Phone Number</label>
-              </div>
-              <div class="form-floating w-50">
-                <select
-                  required
-                  class="form-select"
-                  id="floatingSelect"
-                  aria-label="Floating label select example"
-                >
-                  <option value="bd">Bangladesh</option>
-                  <option value="in">United States</option>
-                  <option value="us">India</option>
-                </select>
-                <label for="floatingSelect">Location</label>
-              </div>
-              <div class="m-3 justify-content-end d-flex w-50">
-                <input
-                  class="btn btn-outline-danger me-3"
-                  type="reset"
-                  value="Reset"
-                />
-                <input
-                  class="btn btn-outline-success"
-                  type="submit"
-                  value="Submit"
-                />
-              </div>
-            </form>
+          <div class="form-floating mb-3 w-50">
+            <input
+              required
+              type="password"
+              class="form-control"
+              id="pass"
+              placeholder="name@example.com"
+            />
+            <label for="pass">Password</label>
           </div>
-        </div>
+          <div class="m-3 justify-content-center d-flex">
+            <input
+              class="btn btn-outline-success"
+              type="submit"
+              value="Login"
+            />
+          </div>
+          <div>
+            <p>Forgot <a href="#">User ID</a> or <a href="#">Password</a></p>
+            <hr />
+            <p>
+              Looking for becoming our client?
+              <a href="becomeAClient.html">Log in here</a>
+            </p>
+          </div>
+        </form>
       </section>
     </main>
-    <footer class="">
+    <footer>
       <section
         style="background-color: #003149; height: 200px"
         class="letter-size top-footer"

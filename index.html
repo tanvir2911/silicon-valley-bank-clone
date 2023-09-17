@@ -32,8 +32,13 @@
           <li class="nav-item">
             <a class="nav-link" href="#">SVB</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Silicon VAlley Bank</a>
+          <li
+            class="nav-item border border-rounded"
+            style="background-color: white"
+          >
+            <a class="nav-link text-dark fw-bold" href="index.html"
+              >Silicon Valley Bank</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">SVB Private</a>
@@ -117,7 +122,7 @@
       <div class="" style="">
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="javascript:void(0)"
+            <a class="navbar-brand" href="./index.html"
               ><img
                 class="img-fluid"
                 style="width: 100px; height: 20px"
@@ -295,7 +300,7 @@
                   <div class="dropdown1-content letter-size">
                     <div class="row">
                       <div class="column col">
-                        <h3>SVB FAQ</h3>
+                        <a href="#"><h3>SVB FAQ</h3></a>
                         <hr />
                         <p>
                           Silicon Valley Bank is now a division of First
@@ -303,7 +308,7 @@
                         </p>
                       </div>
                       <div class="column col">
-                        <h3>Living Our Values</h3>
+                        <a href="#"><h3>Living Our Values</h3></a>
                         <hr />
                         <p>
                           SVB's values guide our actions, from our approach to
@@ -312,7 +317,7 @@
                         </p>
                       </div>
                       <div class="column col">
-                        <h3>Contact Us</h3>
+                        <a href="./contactUs.html"><h3>Contact Us</h3></a>
                         <hr />
                         <p>
                           Let SVB experts help your business with the right mix
@@ -333,7 +338,7 @@
                   </div>
                 </div>
               </ul>
-              <form class="d-flex">
+              <div class="d-flex">
                 <a
                   class="align-center"
                   href=""
@@ -409,12 +414,82 @@
                   </button>
                 </a>
                 <button
-                  class="btn btn-info border border-rounded-none"
                   type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
                 >
                   Login
                 </button>
-              </form>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal2"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content p-5">
+                      <div class="modal-body">
+                        <div class="login-box">
+                          <h3 class="fs-4" style="color: rgb(38, 174, 205)">
+                            SELECT A SERVICE FOR LOGIN
+                          </h3>
+                          <div class="row ps-0">
+                            <div class="col-10 ms-0">
+                              <select
+                                class="form-select form-select-lg mb-3"
+                                aria-label="Large select example"
+                              >
+                                <option selected value="svbOnlineService">
+                                  SVB Online Services
+                                </option>
+                                <option value="svbGo">SVB Go</option>
+                                <optgroup label="Private Bank">
+                                  <option value="pbLSVB">
+                                    Private Banking - Legacy SVB
+                                  </option>
+                                  <option value="pbLBP">
+                                    Private Banking - Legacy Boston Private
+                                  </option>
+                                </optgroup>
+                                <optgroup label="Investments">
+                                  <option value="svbCLP">
+                                    SVB Capital Limited Partners
+                                  </option>
+                                  <option value="svbAMR">
+                                    SVB Asset Management Reporting
+                                  </option>
+                                  <option value="usBP">U.S Bank Pivot</option>
+                                </optgroup>
+                                <optgroup label="Credit Cards">
+                                  <option value="cardHolders">
+                                    Cardholders
+                                  </option>
+                                </optgroup>
+                                <option value="administrators">
+                                  Administrators
+                                </option>
+                              </select>
+                            </div>
+                            <div class="col-2">
+                              <a href="online-banking.html">
+                                <button type="button" class="btn btn-primary">
+                                  Go
+                                </button>
+                              </a>
+                            </div>
+                          </div>
+                          <p>Need help? <a href="#">Client Support</a></p>
+                          <p>Not a client? <a href="#">Apply Now</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </nav>
